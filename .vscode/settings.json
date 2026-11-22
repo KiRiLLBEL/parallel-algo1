@@ -1,0 +1,18 @@
+{
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--query-driver=/usr/bin/c++,/usr/bin/g++"
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmakeFormat.exePath": "cmake-format",
+    "[cmake]": {
+        "editor.defaultFormatter": "cheshirekow.cmake-format",
+        "editor.formatOnSave": true
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    }
+}

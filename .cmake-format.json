@@ -1,0 +1,10 @@
+{
+    "format": {
+        "tab_size": 4,
+        "line_width": 100,
+        "command_case": "lower",
+        "keyword_case": "upper",
+        "dangle_parens": true,
+        "enable_sort": false
+    }
+}
